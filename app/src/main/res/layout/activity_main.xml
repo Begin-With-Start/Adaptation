@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.minifly.adaptation.MainActivity">
+
+    <TextView
+        android:id="@+id/adaptation_text_screen_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="屏幕宽高："
+        />
+
+    <TextView
+        android:id="@+id/adaptation_show_msg_txt"
+        app:layout_constraintTop_toBottomOf="@+id/adaptation_text_screen_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="屏幕宽高："
+        />
+
+</android.support.constraint.ConstraintLayout>
